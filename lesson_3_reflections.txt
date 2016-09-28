@@ -13,3 +13,5 @@ What is the benefit of having a copy of the last known state of the remote store
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
  I would use some other cloud sharing service, but it would not be specifially tailored for web development, which would make making changes, saving versions and collaborating much harder.
  
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes in a separate branch would need to be when there is a very significant change being made to the code that you don't want to affect your code. The benefit is having that separation from other people's work, and the opportunity to expriment without destroying your project, however it can get difficult merging those branches and making updates.
